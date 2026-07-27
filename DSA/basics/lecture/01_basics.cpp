@@ -37,6 +37,17 @@ int main(){
     long long i = g*h;
     cout << i << endl; // OUTPUT - 1410065408 because the calculation happens first then its gets stored in the long long so the int can't calculate to 10^10
 
+     double j = 100000;
+     double k = 100000;
+     double l = a * b;
+     l = 1e24;
+     cout << fixed << c << endl;
+     // We should never calculate values using double even though they can store large numbers but they have precision errors & are not accurate 
 
+
+     /**
+        For True =>  1
+            False => 0 
+    */
 }
 
